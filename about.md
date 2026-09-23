@@ -10,7 +10,7 @@ permalink: /about/
 <section class="about-intro">
   <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Michael MacRaild">
   <div>
-    <p class="lead">My uses computational models to understand and improve treatment of diseases.</p>
+    <p class="lead">My research uses computational models to understand and improve treatment of diseases.</p>
     <p>I am a Research Associate at the University of Manchester in the Centre for Computational Imaging and Modelling in Medicine. My research focuses on in-silico trials, computational modelling, and simulation acceleration for cardiovascular applications.</p>
   </div>
 </section>
