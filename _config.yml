@@ -1,0 +1,10 @@
+title: Michael MacRaild
+description: Research Associate at The University of Manchester
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /:title/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
