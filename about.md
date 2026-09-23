@@ -18,7 +18,7 @@ permalink: /about/
 <h2>Academic background</h2>
 <p>I completed my PhD at the University of Leeds through the EPSRC Centre for Doctoral Training in Fluid Dynamics. My PhD thesis title is "Efficient ensemble simulation methods for in-silico trials of endovascular medical devices". You can check it out here. My PhD included studies of intracranial aneurysm haemodynamics, flow-diverter treatment, and reduced-order approaches for fast vascular flow simulation.  My technical work brings together mathematical modelling, computational fluid dynamics, fluid-structure interaction, machine learning, and patient-specific simulation.</p>
 
-<p>Alongside my researh projects, I enjoy collaborating with clinicians, industry partners and regulatory representatives through the UK CEiRSI. I have supervised various Masters student projects and collaborated with PhD students in my time in Leeds and Manchester.</p>
+<p>Alongside my researh projects, I enjoy collaborating with clinicians, industry partners and regulatory representatives. I have supervised various Masters student projects and collaborated with PhD students in my time in Leeds and Manchester.</p>
 
 <h2>Beyond research</h2>
 <p>Outside work, I enjoy hiking and being outdoors, playing and following football and cricket, going to the gym, and cooking.</p>
