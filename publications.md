@@ -6,7 +6,6 @@ permalink: /publications/
 
 <p class="eyebrow">Publications</p>
 <h1>Research outputs</h1>
-<p class="lead">Complete publication record, listed newest first. <strong>Michael MacRaild</strong> is highlighted in each citation.</p>
 
 <ul class="item-list">
   <li><span class="publication-year">2026</span><span class="publication-title">From pixels to polygons: A survey of deep learning approaches for medical image-to-mesh reconstruction.</span><span class="item-meta">Lin, F., Zakeri, A., Xue, Y., <strong>MacRaild, M.</strong>, Dou, H., Zhou, Z., Zou, Z., Sarrami-Foroushani, A., Duan, J., and Frangi, A. F. <em>Medical Image Analysis</em>, 113, 104153.</span><a class="doi-link" href="https://doi.org/10.1016/j.media.2026.104153">DOI: 10.1016/j.media.2026.104153</a></li>
