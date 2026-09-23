@@ -30,7 +30,7 @@ layout: default
       <div class="section-heading"><div><p class="section-label">Latest news</p><h2>News</h2></div><a href="{{ '/news/' | relative_url }}">All news</a></div>
       <ul class="news-list">
         <li><time datetime="2026-09-16">16 Sep 2026</time><div><h3>Credibility assessment for flow-diverter models</h3><p>Oral presentation at the International Clinical Trials Methodology Conference, Birmingham.</p></div></li>
-        <li><time datetime="2024-07-16">16 Jul 2024</time><div><h3>PhD graduation</h3><p>Graduated from the University of Leeds with a PhD and MSc in Fluid Dynamics.</p></div></li>
+        <li><time datetime="2025-06-04">4 Jun 2025</time><div><h3>Two presentations at VITM 2025</h3><p>Oral and poster presentations at the Virtual Imaging Trials in Medicine Conference, Manchester.</p></div></li>
       </ul>
     </section>
   </div>
