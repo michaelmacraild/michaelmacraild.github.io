@@ -62,9 +62,9 @@ main { min-height: calc(100vh - 144px); padding: 3.5rem 0 0; }
 .home-container { width: min(100% - 4rem, 1280px); margin-right: auto; margin-left: auto; }
 .home-band { padding: 4.5rem 0; }
 .home-band-muted { background: #edf3f1; }
-.hero { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 3.5rem; align-items: center; padding: 1rem 0 4.5rem; }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) 112px; gap: 2.5rem; align-items: center; padding: 1rem 0 3rem; }
 .hero-copy { max-width: 730px; }
-.hero-portrait { display: block; width: 170px; aspect-ratio: 1; border-radius: 50%; object-fit: cover; background: #edf1ef; }
+.hero-portrait { display: block; width: 112px; height: 112px; border-radius: 50%; object-fit: cover; background: #edf1ef; }
 .portrait { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: #edf1ef; }
 
 h1, h2, h3 { color: var(--ink); font-weight: normal; line-height: 1.12; }
@@ -84,6 +84,11 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
 .research-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
 .research-grid article { border-top: 2px solid var(--accent); padding-top: .7rem; }
 .research-grid p, .item-meta { margin: 0; color: var(--muted); font-size: .96rem; }
+
+.profile-summary { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 5rem; border-top: 1px solid var(--line); }
+.profile-summary h2 { margin-top: 0; }
+.profile-summary p:not(.section-label) { color: var(--muted); }
+.profile-summary a { font-family: Arial, sans-serif; font-size: .88rem; text-underline-offset: .2em; }
 
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; }
 .section-heading h2 { margin-top: 0; }
@@ -125,8 +130,9 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
   main { padding: 2.5rem 0 0; }
   .home-band { padding: 3rem 0; }
   .hero { grid-template-columns: 1fr; gap: 1.5rem; padding-bottom: 3rem; }
-  .hero-portrait { width: 135px; }
+  .hero-portrait { width: 112px; height: 112px; }
   .research-grid { grid-template-columns: 1fr; gap: 1.6rem; }
+  .profile-summary { grid-template-columns: 1fr; gap: 2rem; }
   .section-heading { align-items: start; flex-direction: column; gap: 0; }
   .section-heading > a { margin-bottom: 0; }
   .news-list li { grid-template-columns: 1fr; gap: .4rem; }
