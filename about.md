@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p class="eyebrow">About</p>
-<h1>Computational modelling for better healthcare outcomes</h1>
+<h1 class="about-title">Computational modelling for better healthcare outcomes</h1>
 
 <section class="about-intro">
   <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Michael MacRaild">

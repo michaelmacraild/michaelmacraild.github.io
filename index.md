@@ -31,6 +31,7 @@ layout: default
       <ul class="news-list">
         <li><time datetime="2026-09-16">16 Sep 2026</time><div><h3>Credibility assessment for flow-diverter models</h3><p>Oral presentation at the International Clinical Trials Methodology Conference, Birmingham.</p></div></li>
         <li><time datetime="2025-06-04">4 Jun 2025</time><div><h3>Two presentations at VITM 2025</h3><p>Oral and poster presentations at the Virtual Imaging Trials in Medicine Conference, Manchester.</p></div></li>
+        <li><time datetime="2025-05-06">6 May 2025</time><div><h3>UK CEiRSI Pilot 2 panel session</h3><p>Panel discussion on credibility assessment in computational modelling for medical devices.</p></div></li>
       </ul>
     </section>
   </div>

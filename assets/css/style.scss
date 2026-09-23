@@ -70,6 +70,7 @@ main { min-height: calc(100vh - 144px); padding: 3.5rem 0 0; }
 
 h1, h2, h3 { color: var(--ink); font-weight: normal; line-height: 1.12; }
 h1 { margin: 0; font-size: clamp(2.35rem, 4.2vw, 3.8rem); }
+.about-title { font-size: clamp(2.2rem, 3vw, 2.65rem); }
 h2 { margin: 2.5rem 0 1rem; font-size: clamp(1.7rem, 2.8vw, 2.35rem); }
 h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
 
@@ -85,6 +86,7 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
 .research-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
 .research-grid article { border-top: 2px solid var(--accent); padding-top: .7rem; }
 .research-grid p, .item-meta { margin: 0; color: var(--muted); font-size: .96rem; }
+.presentation-format { margin: .3rem 0 0; font-size: .94rem; }
 
 .home-dashboard { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 4rem; border-top: 1px solid var(--line); padding-top: 1.8rem; }
 .home-about h2, .home-news h2 { margin-top: 0; font-size: clamp(1.45rem, 2.1vw, 1.9rem); }
