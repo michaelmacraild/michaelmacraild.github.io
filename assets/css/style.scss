@@ -42,7 +42,9 @@ body {
 
 .wordmark { font-size: 1.22rem; font-weight: bold; white-space: nowrap; }
 
-nav { display: flex; gap: 1.15rem; font-family: Arial, sans-serif; font-size: .82rem; }
+nav { display: flex; gap: .15rem; padding: .2rem; border: 1px solid var(--line); background: #f5f8f7; font-family: Arial, sans-serif; font-size: .78rem; }
+nav a { padding: .38rem .55rem; }
+nav a:hover { background: #dceae6; }
 
 nav a:hover, .wordmark:hover, a { color: var(--accent-dark); }
 
@@ -128,7 +130,7 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
   body { font-size: 16px; }
   .shell, .home-container { width: min(100% - 2rem, 1280px); }
   .navigation { min-height: auto; align-items: flex-start; flex-direction: column; padding: 1.1rem 0; gap: .6rem; }
-  nav { flex-wrap: wrap; gap: .45rem .9rem; }
+  nav { flex-wrap: wrap; gap: .15rem; }
   main { padding: 2.5rem 0 0; }
   .home-band { padding: 3rem 0; }
   .hero { grid-template-columns: 1fr; gap: 1.5rem; padding-bottom: 3rem; }

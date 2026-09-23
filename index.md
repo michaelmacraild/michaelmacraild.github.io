@@ -31,7 +31,7 @@ layout: default
       <h2>Beyond research</h2>
       <p>Hiking and being outdoors; football, cricket, and the gym; and cooking.</p>
       <a href="{{ '/about/' | relative_url }}">Read my biography</a>
-    </div>
+    </article>
   </section>
 
   <section class="home-band home-band-muted">
