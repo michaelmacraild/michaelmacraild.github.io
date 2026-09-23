@@ -62,11 +62,10 @@ main { min-height: calc(100vh - 144px); padding: 3.5rem 0 0; }
 
 .home-page { width: 100vw; margin-left: calc(50% - 50vw); }
 .home-container { width: min(100% - 4rem, 1280px); margin-right: auto; margin-left: auto; }
-.home-band { padding: 4.5rem 0; }
-.home-band-muted { background: #edf3f1; }
-.hero { display: grid; grid-template-columns: minmax(0, 1fr) 112px; gap: 2.5rem; align-items: center; padding: 1rem 0 3rem; }
+.home-page { min-height: calc(100vh - 144px); display: grid; align-content: center; padding: 1.5rem 0 2.5rem; }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) 160px; gap: 3rem; align-items: center; padding: 0 0 2rem; }
 .hero-copy { max-width: 730px; }
-.hero-portrait { display: block; width: 112px; height: 112px; border-radius: 50%; object-fit: cover; background: #edf1ef; }
+.hero-portrait { display: block; width: 160px; height: 160px; border: 4px solid #dceae6; border-radius: 50%; object-fit: cover; background: #edf1ef; }
 .portrait { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: #edf1ef; }
 
 h1, h2, h3 { color: var(--ink); font-weight: normal; line-height: 1.12; }
@@ -87,10 +86,10 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
 .research-grid article { border-top: 2px solid var(--accent); padding-top: .7rem; }
 .research-grid p, .item-meta { margin: 0; color: var(--muted); font-size: .96rem; }
 
-.profile-summary { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 5rem; border-top: 1px solid var(--line); }
-.profile-summary h2 { margin-top: 0; }
-.profile-summary p:not(.section-label) { color: var(--muted); }
-.profile-summary a { font-family: Arial, sans-serif; font-size: .88rem; text-underline-offset: .2em; }
+.home-dashboard { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 4rem; border-top: 1px solid var(--line); padding-top: 1.8rem; }
+.home-about h2, .home-news h2 { margin-top: 0; font-size: clamp(1.45rem, 2.1vw, 1.9rem); }
+.home-about p:not(.section-label) { margin: 0 0 .75rem; color: var(--muted); }
+.home-about a { font-family: Arial, sans-serif; font-size: .88rem; text-underline-offset: .2em; }
 
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; }
 .section-heading h2 { margin-top: 0; }
@@ -106,6 +105,10 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
 .news-list p { margin: 0; color: var(--muted); font-size: .96rem; }
 .news-list p + p { margin-top: .8rem; }
 .news-list-full { margin-top: 2.5rem; }
+.home-news .news-list { margin-top: .6rem; }
+.home-news .news-list li { grid-template-columns: 90px minmax(0, 1fr); gap: 1rem; padding: .7rem 0; }
+.home-news .news-list h3 { font-size: 1rem; }
+.home-news .news-list p { font-size: .86rem; }
 
 .spotlight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; margin-top: 1.5rem; }
 .spotlight-grid article { border-top: 1px solid var(--line); padding-top: .9rem; }
@@ -132,14 +135,15 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
   .navigation { min-height: auto; align-items: flex-start; flex-direction: column; padding: 1.1rem 0; gap: .6rem; }
   nav { flex-wrap: wrap; gap: .15rem; }
   main { padding: 2.5rem 0 0; }
-  .home-band { padding: 3rem 0; }
-  .hero { grid-template-columns: 1fr; gap: 1.5rem; padding-bottom: 3rem; }
-  .hero-portrait { width: 112px; height: 112px; }
+  .home-page { min-height: auto; display: block; padding: 0 0 3rem; }
+  .hero { grid-template-columns: 1fr; gap: 1.25rem; padding: 0 0 2.5rem; }
+  .hero-portrait { width: 140px; height: 140px; }
   .research-grid { grid-template-columns: 1fr; gap: 1.6rem; }
-  .profile-summary { grid-template-columns: 1fr; gap: 2rem; }
+  .home-dashboard { grid-template-columns: 1fr; gap: 2.5rem; }
   .section-heading { align-items: start; flex-direction: column; gap: 0; }
   .section-heading > a { margin-bottom: 0; }
   .news-list li { grid-template-columns: 1fr; gap: .4rem; }
+  .home-news .news-list li { grid-template-columns: 1fr; gap: .25rem; }
   .spotlight-grid, .spotlight-detail { grid-template-columns: 1fr; }
   .spotlight-detail { gap: 1.3rem; margin-top: 2.6rem; }
   .about-intro { grid-template-columns: 1fr; gap: 1.5rem; }
