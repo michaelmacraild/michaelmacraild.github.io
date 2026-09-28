@@ -118,6 +118,7 @@ h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
 .spotlight-grid p:not(.section-label) { color: var(--muted); font-size: .94rem; }
 .figure-placeholder { display: grid; aspect-ratio: 16 / 10; place-items: center; border: 1px solid var(--line); background: #eef3f1; color: var(--muted); font-family: Arial, sans-serif; font-size: .74rem; text-align: center; }
 .figure-placeholder-wide { aspect-ratio: 16 / 9; }
+.spotlight-figure { display: block; width: 100%; max-height: 380px; object-fit: contain; border: 1px solid var(--line); background: #fff; }
 .spotlight-detail { display: grid; grid-template-columns: minmax(280px, .85fr) minmax(0, 1.15fr); gap: 2.4rem; border-top: 1px solid var(--line); margin-top: 3.5rem; padding-top: 1.6rem; }
 .spotlight-detail h2 { margin-top: 0; font-size: 2rem; }
 
