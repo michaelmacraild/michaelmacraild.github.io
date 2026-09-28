@@ -10,7 +10,7 @@ permalink: /spotlights/
 
 <section class="spotlight-detail">
   <img class="spotlight-figure" src="{{ '/assets/img/pcoma-ist-results.png' | relative_url }}" alt="Comparison of non-fetal and fetal posterior communicating artery aneurysm flow simulations">
-  <div><p class="section-label">In-silico trials</p><h2>Flow-diverter assessment in posterior communicating artery aneurysms</h2><p>This study evaluates flow-diverter performance in posterior communicating artery aneurysms, a setting in which treatment may be used beyond its principal indication. The work uses patient-specific simulation to investigate treatment efficacy and produce evidence for less-studied clinical scenarios and demographics.</p><p><a href="{{ '/publications/' | relative_url }}">View the publication record</a></p></div>
+  <div><p class="section-label">In-silico trials</p><h2>Flow-diverter assessment in posterior communicating artery aneurysms</h2><p>This study evaluates flow-diverter performance in posterior communicating artery aneurysms, a setting in which treatment may be used beyond its principal indication. The work uses patient-specific simulation to investigate treatment efficacy and produce evidence for less-studied clinical scenarios and demographics.</p><p><a href="https://doi.org/10.1136/jnis-2024-022000">Read the paper</a></p></div>
 </section>
 
 <section class="spotlight-detail">
