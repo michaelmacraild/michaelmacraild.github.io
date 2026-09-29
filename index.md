@@ -35,4 +35,21 @@ layout: default
       </ul>
     </section>
   </div>
+
+  <section class="academic-timeline home-container" aria-labelledby="academic-journey-title">
+    <div class="timeline-heading">
+      <p class="section-label">Academic journey</p>
+      <h2 id="academic-journey-title">From Manchester to Leeds</h2>
+    </div>
+    <div class="timeline-events">
+      <article class="timeline-event">
+        <img src="{{ '/assets/img/UoM.jpg' | relative_url }}" alt="Michael MacRaild at his University of Manchester graduation ceremony in 2018">
+        <div><time datetime="2018">2018</time><h3>University of Manchester</h3><p>Graduated with a first-class MMath &amp; Physics degree.</p></div>
+      </article>
+      <article class="timeline-event">
+        <img src="{{ '/assets/img/UoL.JPG' | relative_url }}" alt="Michael MacRaild at his University of Leeds graduation ceremony in 2024">
+        <div><time datetime="2024">2024</time><h3>University of Leeds</h3><p>Graduated with a PhD and MSc in Fluid Dynamics.</p></div>
+      </article>
+    </div>
+  </section>
 </div>
