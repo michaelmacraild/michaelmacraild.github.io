@@ -16,7 +16,18 @@ layout: default
         <a href="https://orcid.org/0009-0001-3307-743X">ORCID</a>
       </div>
     </div>
-    <img class="hero-portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Michael MacRaild" width="160" height="160">
+    <aside class="hero-journey" aria-labelledby="academic-journey-title">
+      <div class="journey-heading">
+        <img class="hero-portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Michael MacRaild" width="96" height="96">
+        <div><p class="section-label">Academic journey</p><h2 id="academic-journey-title">Manchester to Leeds</h2></div>
+      </div>
+      <ol class="journey-timeline">
+        <li><time datetime="2018">2018</time><strong>Manchester</strong><span>MMath &amp; Physics</span></li>
+        <li><time datetime="2020">2020</time><strong>Leeds</strong><span>MSc, Distinction</span></li>
+        <li><time datetime="2024">2024</time><strong>Leeds</strong><span>PhD</span></li>
+        <li><time>Present</time><strong>Manchester</strong><span>Research Associate</span></li>
+      </ol>
+    </aside>
   </section>
 
   <div class="home-dashboard home-container">
@@ -29,27 +40,11 @@ layout: default
     <section class="home-news">
       <div class="section-heading"><div><p class="section-label">Latest news</p><h2>News</h2></div><a href="{{ '/news/' | relative_url }}">All news</a></div>
       <ul class="news-list">
-        <li><time datetime="2026-09-16">16 Sep 2026</time><div><h3>Credibility assessment for flow-diverter models</h3><p>Oral presentation at the International Clinical Trials Methodology Conference, Birmingham.</p></div></li>
-        <li><time datetime="2026-06-05">5 Jun 2026</time><div><h3>New survey paper on medical image-to-mesh reconstruction</h3><p>Congratulations to lead author Fengming Lin and co-authors on the publication.</p></div></li>
-        <li><time datetime="2025-06-04">4 Jun 2025</time><div><h3>Two presentations at VITM 2025</h3><p>Oral and poster presentations at the Virtual Imaging Trials in Medicine Conference, Manchester.</p></div></li>
+        <li><time datetime="2026-09-16">Sep 2026</time><div><h3>Credibility assessment for flow-diverter models</h3><p>Oral presentation at the International Clinical Trials Methodology Conference, Birmingham.</p></div></li>
+        <li><time datetime="2026-06-05">Jun 2026</time><div><h3>New survey paper on medical image-to-mesh reconstruction</h3><p>Congratulations to lead author Fengming Lin and co-authors on the publication.</p></div></li>
+        <li><time datetime="2025-06-04">Jun 2025</time><div><h3>Two presentations at VITM 2025</h3><p>Oral and poster presentations at the Virtual Imaging Trials in Medicine Conference, Manchester.</p></div></li>
       </ul>
     </section>
   </div>
 
-  <section class="academic-timeline home-container" aria-labelledby="academic-journey-title">
-    <div class="timeline-heading">
-      <p class="section-label">Academic journey</p>
-      <h2 id="academic-journey-title">From Manchester to Leeds</h2>
-    </div>
-    <div class="timeline-events">
-      <article class="timeline-event">
-        <img src="{{ '/assets/img/UoM.jpg' | relative_url }}" alt="Michael MacRaild at his University of Manchester graduation ceremony in 2018">
-        <div><time datetime="2018">2018</time><h3>University of Manchester</h3><p>Graduated with a first-class MMath &amp; Physics degree.</p></div>
-      </article>
-      <article class="timeline-event">
-        <img src="{{ '/assets/img/UoL.JPG' | relative_url }}" alt="Michael MacRaild at his University of Leeds graduation ceremony in 2024">
-        <div><time datetime="2024">2024</time><h3>University of Leeds</h3><p>Graduated with a PhD and MSc in Fluid Dynamics.</p></div>
-      </article>
-    </div>
-  </section>
 </div>
