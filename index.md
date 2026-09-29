@@ -19,13 +19,13 @@ layout: default
     <aside class="hero-journey" aria-labelledby="academic-journey-title">
       <div class="journey-heading">
         <img class="hero-portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Michael MacRaild" width="96" height="96">
-        <div><p class="section-label">Academic journey</p><h2 id="academic-journey-title">Manchester to Leeds</h2></div>
+        <p class="section-label" id="academic-journey-title">Academic journey</p>
       </div>
       <ol class="journey-timeline">
-        <li><time datetime="2018">2018</time><strong>Manchester</strong><span>MMath &amp; Physics</span></li>
-        <li><time datetime="2020">2020</time><strong>Leeds</strong><span>MSc, Distinction</span></li>
-        <li><time datetime="2024">2024</time><strong>Leeds</strong><span>PhD</span></li>
-        <li><time>Present</time><strong>Manchester</strong><span>Research Associate</span></li>
+        <li><img class="journey-graduation" src="{{ '/assets/img/UoM.jpg' | relative_url }}" alt="Michael MacRaild at his University of Manchester graduation ceremony in 2018"><time datetime="2018">2018</time><strong>The University of Manchester</strong><span>MMath &amp; Physics, First Class</span></li>
+        <li><time datetime="2020">2020</time><strong>University of Leeds</strong><span>MSc Fluid Dynamics, Distinction</span></li>
+        <li><img class="journey-graduation" src="{{ '/assets/img/UoL.JPG' | relative_url }}" alt="Michael MacRaild at his University of Leeds graduation ceremony in 2024"><time datetime="2024">2024</time><strong>University of Leeds</strong><span>PhD, School of Computing</span></li>
+        <li><time>Present</time><strong>The University of Manchester</strong><span>Research Associate</span></li>
       </ol>
     </aside>
   </section>
