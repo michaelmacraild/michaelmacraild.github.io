@@ -39,9 +39,9 @@ layout: default
     <section class="home-news">
       <div class="section-heading"><div><p class="section-label">Latest news</p><h2>News</h2></div><a href="{{ '/news/' | relative_url }}">All news</a></div>
       <ul class="news-list">
+        <li><time datetime="2026-10">Oct 2026</time><div><h3>New paper on risk-informed regulatory evaluation</h3><p>Published in <em>Device</em>, presenting a framework for evaluating in-silico evidence in medical-device regulation.</p></div></li>
         <li><time datetime="2026-09-16">Sep 2026</time><div><h3>Credibility assessment for flow-diverter models</h3><p>Oral presentation at the International Clinical Trials Methodology Conference, Birmingham.</p></div></li>
         <li><time datetime="2026-06-05">Jun 2026</time><div><h3>New survey paper on medical image-to-mesh reconstruction</h3><p>Congratulations to lead author Fengming Lin and co-authors on the publication.</p></div></li>
-        <li><time datetime="2025-06-04">Jun 2025</time><div><h3>Two presentations at VITM 2025</h3><p>Oral and poster presentations at the Virtual Imaging Trials in Medicine Conference, Manchester.</p></div></li>
       </ul>
     </section>
   </div>
