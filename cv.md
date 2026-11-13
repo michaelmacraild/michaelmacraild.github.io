@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-<p class="eyebrow">Curriculum vitae</p>
+<h1>Curriculum vitae</h1>
 
 <h2>Appointments</h2>
 <ul class="item-list">

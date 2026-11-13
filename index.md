@@ -1,9 +1,10 @@
 ---
 layout: default
+permalink: /
 ---
 
 <div class="home-page">
-  <section class="hero home-container">
+  <section class="hero">
     <div class="hero-identity">
       <div class="hero-copy">
         <p class="eyebrow">Computational Modelling for Cardiovascular Medicine</p>
@@ -29,7 +30,7 @@ layout: default
     </aside>
   </section>
 
-  <div class="home-dashboard home-container">
+  <div class="home-dashboard">
     <section class="home-about">
       <p class="section-label">About me</p>
       <h2>Computational models for better healthcare outcomes.</h2>
@@ -37,7 +38,7 @@ layout: default
       <a href="{{ '/about/' | relative_url }}">More about me</a>
     </section>
     <section class="home-news">
-      <div class="section-heading"><div><p class="section-label">Latest news</p><h2>News</h2></div><a href="{{ '/news/' | relative_url }}">All news</a></div>
+      <div class="section-heading"><h2>Latest news</h2><a href="{{ '/news/' | relative_url }}">All news</a></div>
       <ul class="news-list">
         <li><time datetime="2026-10">Oct 2026</time><div><h3>New paper on risk-informed regulatory evaluation</h3><p>Published in <em>Device</em>, presenting a framework for evaluating in-silico evidence in medical-device regulation.</p></div></li>
         <li><time datetime="2026-09-16">Sep 2026</time><div><h3>Credibility assessment for flow-diverter models</h3><p>Oral presentation at the International Clinical Trials Methodology Conference, Birmingham.</p></div></li>

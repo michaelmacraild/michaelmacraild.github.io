@@ -12,9 +12,10 @@ This is a GitHub Pages-ready Jekyll site inspired by [bogoli/-folio](https://git
 ## Edit content
 
 - Update the home page in `index.md`.
-- Update the research narrative in `research.md`.
-- Add publications in `publications.md`.
+- Update the biography in `about.md` and research highlights in `spotlights.md`.
+- Add publications in `publications.md` and archive updates in `news.md`. Keep the three latest items in `index.md` in sync.
 - Update appointments, education, and skills in `cv.md`.
+- See [the handover](ACADEMIC_PROFILE_HANDOVER.md) for editing conventions.
 
 ## Local preview
 
