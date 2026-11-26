@@ -39,3 +39,11 @@ permalink: /spotlights/
   </div>
   <div><p class="section-label">Simulation acceleration</p><h2>Accelerating computational vascular-flow modelling</h2><p>This study reviews reduced-order and machine-learning methods for speeding up computational vascular flow modelling. It compares zero- and one-dimensional models, modal methods, machine-learning-augmented reduced-order models, and physics-informed approaches, identifying where each is effective and where further work is needed for various modelling challenges that arise in clinical problems.</p><p><a href="https://doi.org/10.1098/rsif.2023.0565">Read the paper</a></p></div>
 </section>
+
+<section class="spotlight-detail" id="fd-pass">
+  <div>
+    <a href="{{ '/assets/img/fd-pass-workflow.jpg' | relative_url }}" aria-label="View the full-size FD-PASS workflow figure"><img class="spotlight-figure" src="{{ '/assets/img/fd-pass-workflow.jpg' | relative_url }}" alt="FD-PASS workflow showing 82 aneurysm anatomies, virtual flow-diverter implantation, and blood-flow simulations in 164 normotensive and hypertensive virtual patients"></a>
+    <p class="item-meta">Figure 1 from <a href="https://doi.org/10.1038/s41467-021-23998-w">Sarrami-Foroushani et al. (2021)</a>. &copy; The Author(s) 2021. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+  <div><p class="section-label">In-silico trials</p><h2>FD-PASS: replicating and extending clinical trials</h2><p>Published in <em>Nature Communications</em> in 2021, FD-PASS provided a landmark demonstration that in-silico trials can reproduce and extend clinical evidence for medical devices. The study modelled flow-diverter treatment in 164 virtual patients with 82 distinct aneurysm anatomies, reproducing treatment-success rates from three clinical trials using a blood-flow surrogate for aneurysm occlusion. Controlled virtual experiments then examined branch vessels and hypertension, revealing factors associated with treatment failure and demonstrating the additional insight possible from virtual patient studies.</p><p><a href="https://doi.org/10.1038/s41467-021-23998-w">Read the paper</a></p></div>
+</section>
