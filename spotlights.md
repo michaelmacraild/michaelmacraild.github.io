@@ -21,7 +21,7 @@ permalink: /spotlights/
     <img class="spotlight-figure spotlight-figure-pcoma" src="{{ '/assets/img/pcoma-ist-results.png' | relative_url }}" alt="Comparison of non-fetal and fetal posterior communicating artery aneurysm flow simulations">
     <p class="item-meta">Adapted from Figure 2, <a href="https://doi.org/10.1136/jnis-2024-022000">MacRaild et al. (2025)</a>. &copy; Author(s) (or their employer(s)) 2025. <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Cropped and annotated. Outer frame trimmed for display.</p>
   </div>
-  <div><p class="section-label">In-silico trials</p><h2>Flow-diverter assessment in posterior communicating artery aneurysms</h2><p>This study evaluates flow-diverter performance in posterior communicating artery aneurysms, a setting in which treatment may be used beyond its principal indication. The work uses patient-specific simulation to investigate treatment efficacy and produce evidence for less-studied clinical scenarios and demographics.</p><p><a href="https://doi.org/10.1136/jnis-2024-022000">Read the paper</a></p></div>
+  <div><p class="section-label">In-silico trials</p><h2>FD-PComA: flow-diverter assessment in posterior communicating artery aneurysms</h2><p>This study evaluates flow-diverter performance in posterior communicating artery aneurysms, a setting in which treatment may be used beyond its principal indication. The work uses patient-specific simulation to investigate treatment efficacy and produce evidence for less-studied clinical scenarios and demographics.</p><p><a href="https://doi.org/10.1136/jnis-2024-022000">Read the paper</a></p></div>
 </section>
 
 <section class="spotlight-detail">
