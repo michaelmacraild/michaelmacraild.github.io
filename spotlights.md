@@ -9,6 +9,14 @@ permalink: /spotlights/
 <p class="lead">Selected work on in-silico trials, aneurysm haemodynamics, and accelerated simulation.</p>
 
 <section class="spotlight-detail">
+  <div>
+    <img class="spotlight-figure" src="{{ '/assets/img/in-silico-neurosurgery.jpg' | relative_url }}" alt="In-silico trial workflow combining virtual anatomies and physiologies to compare devices, activity levels, and aneurysm shapes">
+    <p class="item-meta">Figure 1 from MacRaild et al. (2025), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+  <div><p class="section-label">In-silico neurosurgery</p><h2>Toward safe, effective and equitable flow-diverter treatment</h2><p>This article explores how in-silico trials can support safer, more effective and more equitable flow-diverter treatment of intracranial aneurysms. Virtual patient populations bring together variation in anatomy and physiology with simulations of treatment and blood flow, allowing device performance to be explored across different clinical scenarios. The work considers how this approach can strengthen the evidence available for evaluating treatment across diverse patient populations.</p><p><a href="https://doi.org/10.1016/j.wneu.2024.123589">Read the paper</a></p></div>
+</section>
+
+<section class="spotlight-detail">
   <img class="spotlight-figure" src="{{ '/assets/img/pcoma-ist-results.png' | relative_url }}" alt="Comparison of non-fetal and fetal posterior communicating artery aneurysm flow simulations">
   <div><p class="section-label">In-silico trials</p><h2>Flow-diverter assessment in posterior communicating artery aneurysms</h2><p>This study evaluates flow-diverter performance in posterior communicating artery aneurysms, a setting in which treatment may be used beyond its principal indication. The work uses patient-specific simulation to investigate treatment efficacy and produce evidence for less-studied clinical scenarios and demographics.</p><p><a href="https://doi.org/10.1136/jnis-2024-022000">Read the paper</a></p></div>
 </section>
