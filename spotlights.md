@@ -35,7 +35,7 @@ permalink: /spotlights/
 <section class="spotlight-detail">
   <div>
     <img class="spotlight-figure" src="{{ '/assets/img/vascular-flow-review.png' | relative_url }}" alt="Illustration of vascular flow modelling challenges in an intracranial aneurysm">
-    <p class="item-meta">Figure 1 from <a href="https://doi.org/10.1098/rsif.2023.0565">MacRaild et al. (2024)</a>. &copy; 2024 The Authors. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+    <p class="item-meta">Adapted from Figure 1, <a href="https://doi.org/10.1098/rsif.2023.0565">MacRaild et al. (2024)</a>. &copy; 2024 The Authors. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Typo corrected and outer frame removed.</p>
   </div>
   <div><p class="section-label">Simulation acceleration</p><h2>Accelerating computational vascular-flow modelling</h2><p>This study reviews reduced-order and machine-learning methods for speeding up computational vascular flow modelling. It compares zero- and one-dimensional models, modal methods, machine-learning-augmented reduced-order models, and physics-informed approaches, identifying where each is effective and where further work is needed for various modelling challenges that arise in clinical problems.</p><p><a href="https://doi.org/10.1098/rsif.2023.0565">Read the paper</a></p></div>
 </section>
