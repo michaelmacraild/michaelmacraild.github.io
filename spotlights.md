@@ -17,16 +17,25 @@ permalink: /spotlights/
 </section>
 
 <section class="spotlight-detail">
-  <img class="spotlight-figure" src="{{ '/assets/img/pcoma-ist-results.png' | relative_url }}" alt="Comparison of non-fetal and fetal posterior communicating artery aneurysm flow simulations">
+  <div>
+    <img class="spotlight-figure" src="{{ '/assets/img/pcoma-ist-results.png' | relative_url }}" alt="Comparison of non-fetal and fetal posterior communicating artery aneurysm flow simulations">
+    <p class="item-meta">Adapted from Figure 2, <a href="https://doi.org/10.1136/jnis-2024-022000">MacRaild et al. (2025)</a>. &copy; Author(s) (or their employer(s)) 2025. <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Cropped and annotated.</p>
+  </div>
   <div><p class="section-label">In-silico trials</p><h2>Flow-diverter assessment in posterior communicating artery aneurysms</h2><p>This study evaluates flow-diverter performance in posterior communicating artery aneurysms, a setting in which treatment may be used beyond its principal indication. The work uses patient-specific simulation to investigate treatment efficacy and produce evidence for less-studied clinical scenarios and demographics.</p><p><a href="https://doi.org/10.1136/jnis-2024-022000">Read the paper</a></p></div>
 </section>
 
 <section class="spotlight-detail">
-  <img class="spotlight-figure" src="{{ '/assets/img/rom-cover-graphic.png' | relative_url }}" alt="Machine-learning reduced-order modelling workflow for aneurysm flow simulation">
+  <div>
+    <img class="spotlight-figure" src="{{ '/assets/img/rom-cover-graphic.png' | relative_url }}" alt="Machine-learning reduced-order modelling workflow for aneurysm flow simulation">
+    <p class="item-meta">Original artwork by Michael MacRaild for <a href="https://doi.org/10.1002/cnm.3848">MacRaild et al. (2024)</a>.</p>
+  </div>
   <div><p class="section-label">Reduced-order modelling</p><h2>Machine learning reduced-order models for aneurysm flow</h2><p>This work developed a non-intrusive parametric model for time-dependent blood flow in intracranial aneurysms. Proper orthogonal decomposition reduces the high-fidelity simulation data, while neural networks predict the reduced coefficients across varying conditions. The best configuration achieved mean test accuracies of 98.6% in the parent vessel and 97.6% in the aneurysm.</p><p><a href="https://doi.org/10.1002/cnm.3848">Read the paper</a></p></div>
 </section>
 
 <section class="spotlight-detail">
-  <img class="spotlight-figure" src="{{ '/assets/img/vascular-flow-review.png' | relative_url }}" alt="Illustration of vascular flow modelling challenges in an intracranial aneurysm">
+  <div>
+    <img class="spotlight-figure" src="{{ '/assets/img/vascular-flow-review.png' | relative_url }}" alt="Illustration of vascular flow modelling challenges in an intracranial aneurysm">
+    <p class="item-meta">Figure 1 from <a href="https://doi.org/10.1098/rsif.2023.0565">MacRaild et al. (2024)</a>. &copy; 2024 The Authors. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
   <div><p class="section-label">Simulation acceleration</p><h2>Accelerating computational vascular-flow modelling</h2><p>This study reviews reduced-order and machine-learning methods for speeding up computational vascular flow modelling. It compares zero- and one-dimensional models, modal methods, machine-learning-augmented reduced-order models, and physics-informed approaches, identifying where each is effective and where further work is needed for various modelling challenges that arise in clinical problems.</p><p><a href="https://doi.org/10.1098/rsif.2023.0565">Read the paper</a></p></div>
 </section>
