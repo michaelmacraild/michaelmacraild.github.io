@@ -29,7 +29,7 @@ permalink: /spotlights/
     <img class="spotlight-figure" src="{{ '/assets/img/rom-cover-graphic.png' | relative_url }}" alt="Machine-learning reduced-order modelling workflow for aneurysm flow simulation">
     <p class="item-meta">Original artwork by Michael MacRaild for <a href="https://doi.org/10.1002/cnm.3848">MacRaild et al. (2024)</a>.</p>
   </div>
-  <div><p class="section-label">Reduced-order modelling</p><h2>Machine learning reduced-order models for aneurysm flow</h2><p>This work developed a non-intrusive parametric model for time-dependent blood flow in intracranial aneurysms. Proper orthogonal decomposition reduces the high-fidelity simulation data, while neural networks predict the reduced coefficients across varying conditions. The best configuration achieved mean test accuracies of 98.6% in the parent vessel and 97.6% in the aneurysm.</p><p><a href="https://doi.org/10.1002/cnm.3848">Read the paper</a></p></div>
+  <div><p class="section-label">Simulation acceleration</p><h2>Machine learning reduced-order models for aneurysm flow</h2><p>This work developed a non-intrusive parametric model for time-dependent blood flow in intracranial aneurysms. Proper orthogonal decomposition reduces the high-fidelity simulation data, while neural networks predict the reduced coefficients across varying conditions. The best configuration achieved mean test accuracies of 98.6% in the parent vessel and 97.6% in the aneurysm.</p><p><a href="https://doi.org/10.1002/cnm.3848">Read the paper</a></p></div>
 </section>
 
 <section class="spotlight-detail">
